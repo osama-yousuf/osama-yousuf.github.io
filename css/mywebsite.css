@@ -272,3 +272,23 @@ p.copyright {
     height: auto;
     width: 25%;
 }
+
+/* .carousel .carousel-indicators li.active {background-color: black;}
+.carousel .carousel-indicators li {background-color: rgb(156, 156, 156);} */
+
+/* .carousel-control-prev-icon {color: rgb(182, 178, 178);}
+.carousel .carousel-control-next {background-color: rgb(182, 178, 178);} */
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+.carousel-inner{
+  max-width: 450px !important;
+  height: 500px !important;
+}
+
+.carousel-caption{
+  color: black;
+}

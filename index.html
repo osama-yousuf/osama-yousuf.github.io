@@ -27,6 +27,9 @@
       type="text/css"
     />
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+
+
     <!-- Custom styles for this template -->
     <link href="css/mywebsite.css" rel="stylesheet" />
 
@@ -116,9 +119,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js--about-me js--wp-1" href="#about"
-                >About Me</a
-              >
+              <a class="nav-link js--about-me js--wp-1" href="#about">About Me</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js--about-me js--wp-1" href="#projects">Projects</a>
@@ -126,14 +127,11 @@
             <li class="nav-item">
               <a
                 class="nav-link js--about-me js--wp-1"
-                href="./resume2021.pdf"
-                >Resume</a
-              >
+                target="_blank" rel="noopener noreferrer"
+                href="./docs/cv2023.pdf">CV</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js--about-me js--wp-2" href="#contact"
-                >Contact</a
-              >
+              <a class="nav-link js--about-me js--wp-2" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -196,7 +194,7 @@
             </li>
             <li class="list-inline-item">
               <a
-                href="mailto:osamayousuf86@gmail.com"
+                href="mailto:osamayousuf@gwu.edu"
                 class="btn btn-secondary btn-lg"
                 style="pointer-events: all"
               >
@@ -204,6 +202,17 @@
                 <span class="network-name"><a target="_blank"></a> </span>
               </a>
             </li>
+            <li class="list-inline-item">
+              <a
+                href="https://scholar.google.com/citations?user=SUq2YpAAAAAJ&hl=en"
+                class="btn btn-secondary btn-lg"
+                style="pointer-events: all"
+              >
+                <i class="ai ai-google-scholar"></i>
+                <span class="network-name"><a target="_blank"></a> </span>
+              </a>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -219,10 +228,11 @@
             </h2>
             <hr class="divider" />
             <p class="lead">
-              I am a PhD Student in Computer Engineering at The George Washington University. I have a Bachelors degree in
-              Computer Science from Habib University, Pakistan. 
-
-              <br><b>Interests</b>: Machine Learning, Artificial Intelligence, Hardware-Software Co-Design, Data Science.
+              <ul class="lead">
+                <li>I am a third year PhD student in Computer Engineering at The George Washington University (GW), advised by <a target="_blank" rel="noopener noreferrer" href="https://www.seas.gwu.edu/gina-adam">Dr. Gina Adam</a>. </li>
+                <li>I have a Bachelors degree in Computer Science with a minor in Mathematics from Habib University, Pakistan. </li>
+                <li><b>Interests</b>: Neuromorphic Computing, Machine Learning, Artificial Intelligence, Hardware-Software Co-Design.</li>
+              </ul>
             </p>
           </div>
           <div class="col-lg mr-auto">
@@ -239,23 +249,53 @@
         <div class="row">
           <div class="col-lg ml-auto">
             <h2 class="section-heading">
-              <i class="fa fa-code fa-fw"></i> Last Spring
+              <i class="fa fa-code fa-fw"></i> Currently,
             </h2>
             <hr class="divider" />
             <p class="lead">
-              I joined the <a href="https://adam.seas.gwu.edu/people/">ADAM Lab</a> at GW as a PhD Student and Graduate Research Assistant to work on robust neural network algorithms for memristor-based accelerators. 
-              I took courses on Parallel Computer Architecture, Computer Networks, and Signals and Transforms in Engineering.
+              <ul class="lead">
+                <li>I am a Graduate Research Assistant at the <a target="_blank" rel="noopener noreferrer" href="https://adam.seas.gwu.edu/people/">Adaptive Devices and Microsystems (ADAM) Lab</a>.</li>
+                <li>I am also a Research Associate at the <a target="_blank" rel="noopener noreferrer" href="https://www.nist.gov/people/osama-yousuf">National Institute of Standards and Technology (NIST)</a>.</li>
+                <li>I work on robust neural network algorithms for memristor-based accelerators, hardware neural network prototyping, and emerging non-volatile memory device modeling.</li>
+                <li>For more details on my education, work, and research experience, check out my <a target="_blank" rel="noopener noreferrer" href="./docs/cv2023.pdf">CV</a>!</li>
+              </ul>
             </p>
           </div>
-          <div class="col-lg mr-auto">
-            <img
-              class="img-fluid"
-              src="img/adamlab.png"
-              alt=""
-              style="border-radius: 0 !important; padding: 5px; padding-left: 32px"
-              width="70%"
-            />
+
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-flex justify-content-center">
+                  <img class="d-block" width="80%" src="img/adamlab.png" alt="First slide">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <img class="d-block" width="80%" src="img/plot1.gif" alt="Second slide">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="d-flex justify-content-center">
+                  <img class="d-block" width="80%" src="img/daffodil.PNG" alt="Third slide">
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="false"></span>
+              <span class="sr-only">Next</span>
+            </a>
           </div>
+
+
         </div>
       </div>
       <!-- /.container -->
@@ -266,15 +306,28 @@
         <div class="row">
           <div class="col-lg ml-auto">
             <h2 class="section-heading">
-              <i class="fa fa-code fa-fw"></i> Summer 2019
+              <i class="fa fa-code fa-fw"></i> Open to Intern!
             </h2>
             <hr class="divider" />
             <p class="lead">
-              I interned at the <a href="http://faculty.cse.tamu.edu/guni/pistar/research.html">Pi Star AI and Optimization Lab </a>, Texas A&M University as a research scholar, studying and simulating various machine learning algorithms and their efficiency in the context of autonomous driving.
-              I also led the development of the core code-base for the simulation-side of the project and worked with a team of graduates as well as post-graduates.
+
+              <ul class="lead">
+                <li>I am actively looking for a remote/in-person <b>internship</b> for <b>Summer 2024</b> in the United States.</li>
+                <li>I am interested in, and posses demonstrable expertise in the following areas: 
+                  <ul>
+                      <li>Artificial Intelligence</li>
+                      <li>Deep Learning</li>
+                      <li>Hardware Neural Networks</li>
+                      <li>FPGA Prototyping</li>
+                      <li>Software Design & Engineering</li>
+                  </ul>
+                </li>
+                <li>Please <a href="mailto:osamayousuf@gwu.com">reach out</a> if you have any relevant roles in your organization!</li>
+              </ul>
+
             </p>
           </div>
-          <div class="col-lg mr-auto">
+          <!-- <div class="col-lg mr-auto">
             <img
               class="img-fluid"
               width="50%"
@@ -282,7 +335,7 @@
               alt=""
               style="border-radius: 0 !important; padding: 5px; padding-left: 32px"
             />
-          </div>
+          </div> -->
         </div>
       </div>
       <!-- /.container -->
@@ -294,8 +347,27 @@
           <div class="col-lg ml-auto">
             <div class="clearfix"></div>
             <h2 class="section-heading">
-              <i class="fa fa-gear fa-fw"></i> Projects
+              <i class="fa fa-gear fa-fw"></i> Relevant Projects
             </h2>
+
+            <!-- Start of entry -->
+            <hr class="divider" />
+            <a
+              class="lead"
+              style="color:black"
+            >
+            <h5>A Reinforcement Learning Framework for Autonomous Vehicles</h5>
+            </a>
+            <p class="lead">
+            <b>Description:</b>
+            <br>In Summer 2019, I interned at the <a target="_blank" rel="noopener noreferrer" href="http://faculty.cse.tamu.edu/guni/pistar/research.html">Pi Star AI and Optimization Lab </a> at Texas A&M University as a research scholar, studying and simulating various machine learning algorithms and their efficiency in the context of autonomous driving.
+            I led the development of the core framework for the simulation-side of the project and worked with a team of graduates as well as post-graduates. This framework was based on the CARLA simulator and compatible with OpenAI's Gym library.
+            <br><b>Technologies:</b>
+             <br>Python, Gym, CARLA
+            <br><b>Code:</b>  <a target="_blank" rel="noopener noreferrer" href="https://github.com/osama-usuf/GYM-CARLA-0.9.5">GitHub</a>
+          </p>
+          <!-- End of entry -->
+
 
             <!-- Start of entry -->
             <hr class="divider" />
@@ -311,7 +383,7 @@
             AI-powered fashion e-commerce web application built using a modern and efficient technology stack. The system can recommend outfits from brands based on input user images and ongoing trends through an assortment of different image processing and artificial intelligence algorithms.
             <br><b>Technologies:</b>
              <br>Django and Python for the back-end, React-TS/JS for the front-end, PostGreSQL as the database ORM, and GraphQL for the client-server API - implemented using Apollo Client at the front-end and Graphene Django at the back-end, and PyTorch and Tensorflow for the recommendation engine.
-             <br><b>Demo: </b><a href="https://www.youtube.com/watch?v=lOJECt7A4Fc">View progress video </a> <b>GitHub:</b> TBA
+             <br><b>Demo: </b><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=cwxaKF9rvyQ">Video </a> <b>Code:</b>  <a target="_blank" rel="noopener noreferrer" href="https://github.com/osama-usuf/Kaavish-II-PORS"> GitHub</a>
           <!-- End of entry -->
             <!-- Start of entry -->
             <hr class="divider" />
@@ -326,7 +398,7 @@
             <br>A feature-rich raytracer written entirely in vanilla C++ that can render flawless stills from any imported 3D model. Salient features include a variety of different lighting sources, a well-grounded array of materials, as well as a few shading options. On top, it also makes use of multithreading and few industry-grade and efficient data structures for accelerating the process of ray-tracing.
             <br><b>Technologies:</b>
              <br>Vanilla C++ (std:C++17)
-            <br><b>Demo: </b><a href="https://storm-dreamers.github.io/">View blog </a> <b>GitHub:</b> TBA
+            <br><b>Demo: </b><a target="_blank" rel="noopener noreferrer" href="https://storm-dreamers.github.io/"> Blog </a>
           </p>
           <!-- End of entry -->
             <!-- Start of entry -->
@@ -342,7 +414,7 @@
             <br>A simple fly-by view over an infinite terrain generated through Perlin Noise. The project takes use of the traditional pipeline rendering process in Computer Graphics. Vertex shaders, fragment shaders, flat and smooth shading, wireframe generation, procedural terrain generation, affine transformations and various schemes were explored and implemented. 
             <br><b>Technologies:</b>
              <br>JavaScript, HTML, CSS, WebGL 1.0
-            <br><b>Demo: </b>TBA <b>GitHub:</b> TBA
+            <!-- <br><b>Demo: </b>TBA <b>GitHub:</b> TBA -->
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -358,7 +430,7 @@
             <br>A complete end-to-end finite element solver for a given system modelled by the Poisson's equation. The project implements the global stiffness matrix procedure and solves for a given mesh file under given boundary conditions.
             <br><b>Technologies:</b>
              <br>Python with NumPy and Matplotlib.
-            <br><b>Demo: </b>TBA <b>GitHub:</b> TBA
+            <!-- <br><b>Demo: </b>TBA <b>GitHub:</b> TBA -->
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -374,7 +446,7 @@
             <br>An interactive simulation built using principles of Object-Oriented Programming for visualizing the solution to the shortest path problem through ACO. Parameters include ant density, dynamic obstacles, solution randomness, and pheromone visibility. Included artwork was also self-designed to add a tint of personalization.
             <br><b>Technologies:</b>
              <br>Processing for Python.
-            <br><b>Demo: </b><a href="https://www.youtube.com/watch?v=Dd_HzN8_IzE">View video </a> <b>GitHub:</b> TBA
+            <br><b>Demo: </b><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=Dd_HzN8_IzE">Video </a> <b>Code:</b>  <a target="_blank" rel="noopener noreferrer" href="https://github.com/osama-usuf/Interactive-Ant-Colony-Optimization-Simulation"> GitHub</a>
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -396,7 +468,7 @@
                 – one that doesn’t deviate from its initial straight trajectory. The two approaches were implemented and their pros and cons on the model were analyzed.
             <br><b>Technologies:</b>
              <br>Python with OpenAI GYM, MuJoCo-200.
-            <br><b>Demo: </b><a href="https://www.youtube.com/watch?v=iJlEbHsgM7Q">View video </a> <b>GitHub:</b> TBA
+            <br><b>Demo: </b><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=iJlEbHsgM7Q"> Video </a> <b>Code:</b>  <a target="_blank" rel="noopener noreferrer" href="https://github.com/osama-usuf/Simulating-a-3D-Humanoid-Walk"> GitHub</a>
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -412,7 +484,7 @@
             <br>A complete single-cycle datapath processor based on the RISC-V architecture using a module-first bottom-to-top approach. The processor can execute a specific set of instructions, which include R-Type, I-Type, and Branch-Type instructions. The main modules include a register file, a 64-bit ALU, data memory, instruction memory, program counter, a full adder, an ALU controller, a control unit, an immediate bit generator, a multiplexer, and an instruction parser. 
             <br><b>Technologies:</b>
              <br>Verilog
-            <br><b>Demo: </b> TBA <b>GitHub:</b> TBA
+            <!-- <br><b>Demo: </b> TBA <b>GitHub:</b> TBA -->
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -428,7 +500,7 @@
             <br>A simple and elegant university management system offering separate faculty, admin, and student portals. A student can enroll in given courses for each term upto a specific amount of credits set by the admin. Students can also view their grade sheets for enrolled terms, and the faculty can assign assignment and course grades to students. The admin can monitor and oversee all these processes.
             <br><b>Technologies:</b>
              <br>MySQL, Microsoft Visual Studio, Windows Forms, DB Designer.
-            <br><b>Demo: </b> TBA <b>GitHub:</b> TBA
+            <!-- <br><b>Demo: </b> TBA <b>GitHub:</b> TBA -->
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -444,7 +516,7 @@
             <br> A remake of the classic Arkanoid i.e. Brick breaker videogame, written in under a month. An extremely high emphasis was placed on design principles and Object-Oriented Programming (OOP). Classes were written for each object in the game, and the interfaces are decoupled from the implementation, so as to maximize encapsulation and abstraction. Inheritance was consistently implemented based on all intuitive class relationships, and so was polymorphism.  
             <br><b>Technologies:</b>
              <br>C++, SDL 2.0 and extension libraries (SDL_Mixer and SDL_Image), Photoshop, Illustrator.
-            <br><b>Demo: </b> <a href="https://www.youtube.com/watch?v=oqENZbrPhSg"> View video </a> <b>GitHub:</b> <a href="https://github.com/osama-usuf/Bricrumble"> View GitHub</a>
+            <br><b>Demo: </b> <a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=oqENZbrPhSg"> Video </a> <b>Code:</b> <a target="_blank" rel="noopener noreferrer" href="https://github.com/osama-usuf/Bricrumble"> GitHub</a>
           </p>
           <!-- End of entry -->
           <!-- Start of entry -->
@@ -460,7 +532,7 @@
             <br> Runway Radio is Habib University's first and only student-run radio network. It operates over Habib's intranet and serves as a platform for students from all departments to hone their communication and verbal skills and engage in an array of intellectual and stimulating conversations. The IT system for the radio includes a Portable Web App (PWA), a website, and an internal ShoutCast server for live broadcasting/streaming. 
             <br><b>Technologies:</b>
              <br>Wordpress, Shoutcast, WAMP stack.
-            <br><b>Demo: </b> <a href="https://runwayradio.github.io/ ">View website</a>  <b>GitHub:</b> <a href="https://github.com/RunwayRadio"> View GitHub</a>
+            <br><b>Demo: </b> <a target="_blank" rel="noopener noreferrer" href="https://runwayradio.github.io/ ">Website</a>  <b>Code:</b> <a target="_blank" rel="noopener noreferrer" href="https://github.com/RunwayRadio">GitHub</a>
           </p>
           <!-- End of entry -->
           </div>
@@ -660,7 +732,7 @@
               </li>
               <li class="list-inline-item">
                 <a
-                  href="mailto:osamayousuf86@gmail.com"
+                  href="mailto:osamayousuf@gwu.edu"
                   class="btn btn-secondary btn-lg"
                 >
                   <i class="fa fa-envelope fa-fw"></i>
@@ -669,6 +741,19 @@
                   </span>
                 </a>
               </li>
+
+              <li class="list-inline-item">
+                <a
+                  href="https://scholar.google.com/citations?user=SUq2YpAAAAAJ&hl=en"
+                  class="btn btn-secondary btn-lg"
+                  style="pointer-events: all"
+                >
+                  <i class="ai ai-google-scholar"></i>
+                  <span class="network-name">Scholar<a target="_blank"></a> </span>
+                </a>
+              </li>
+
+
             </ul>
           </div>
         </div>
@@ -687,7 +772,7 @@
         </li>
 
         <p class="copyright text-muted small">
-          Copyright &copy; Osama Yousuf 2021. All Rights Reserved
+          Copyright &copy; Osama Yousuf 2023. All Rights Reserved
         </p>
       </div>
     </footer>
