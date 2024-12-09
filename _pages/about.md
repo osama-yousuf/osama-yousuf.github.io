@@ -2,24 +2,24 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Deep Learning, Analog AI, Neuromorphic Computing, Algorithm Design.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
+  image_circular: true # crops the image to make it circular
+  more_info: 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD Candidate in Computer Engineering at the [Adaptive Devices and Microsystems (ADAM) Lab](https://adam.seas.gwu.edu/people/) from George Washington University, specializing in Machine Learning and Intelligent Systems. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My research work lies at the intersection of deep learning, neuromorphic computing, and hardware-software algorithm co-design. I develop solutions that enable performing training and inference on crossbar-based hardware accelerators for deep learning architectures (from simple multi-layer perceptrons to modern day large language models).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I am a very avid machine learning/AI enthusiast, and deeply enjoy keeping up-to-date with research in the area. I personally believe the future of AI is analog, architectural mix between modern-day LLMs and classical AI reasoning based approaches. 
+
+I bring a unique blend of device-level and application-level expertise. On the device side, I have experience in building data-driven models, performing electrical measurements and characterizing crossbar arrays, and building a mixed-signal hardware prototyping system for resistive neural networks. On the application side, I have proposed statistical metrics for measuring device model quality, built an end-to-end deep learning library (on top of PyTorch) for crossbar-based neural networks, and proposed robust algorithms for enabling training and inference on these hardware neural networks. I have worked with a diverse set of emerging memory technologies, including resistive RAM (ReRAM), magnetic RAM (MRAM), and ferroelectric field-effect transistors (FeFETs).
+
+I am actively seeking full-time opportunities in research and development, where I can contribute to advancing AI technologies and grow my expertise.
