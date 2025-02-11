@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: Deep Learning and Analog AI.
+subtitle: Deep Learning, Intelligent Systems, In-memory Computing.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic2025.jpg
   image_circular: true # crops the image to make it circular
   more_info: "Graduate Research Assistant osamayousuf@gwu.edu"
 news: true # includes a list of news items
@@ -14,12 +14,10 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a PhD Candidate in Computer Engineering at the [Adaptive Devices and Microsystems (ADAM) Lab](https://adam.seas.gwu.edu/people/) from George Washington University, specializing in Machine Learning and Intelligent Systems. 
+I am a PhD candidate in Computer Engineering at The George Washington University, specializing in Machine Learning & Intelligent Systems. My research focuses on deep learning in alternative computing paradigms (neuromorphic & in-memory computing), aiming to make deep neural network training and inference more resource-efficient through algorithmic and architectural innovations.
 
-I am a very avid machine learning/AI enthusiast, and deeply enjoy keeping up-to-date with research in the area. I believe the future of AI systems is analog, and architecturally is a mix of modern-day LLMs and classical AI reasoning & search based approaches. 
+I bring a unique mix of software and hardware expertise. I can navigate deep learning frameworks 🧠💡, design AI/ML models with hardware-software co-design constraints 🛠️⚡, and develop simulation libraries for AI accelerators and intelligent systems 🌐🤖.
 
-I bring a unique blend of software and hardware engineering expertise from academic as well as industry roles. I can engineer my way around deep learning frameworks (🧠💡 I enjoy experimenting with new ideas; I speak native PyTorch at this point 🐍📊), design & prototype hardware systems (🔧💻 getting better at FPGA-based system design & verification 🛠️⚡), and build AI-first full-stack web applications (🌐🤖). 
+I graduate in Spring 2025 and am actively seeking roles in AI/ML research and engineering. I am excited to join a team that pushes the boundaries of AI and challenges me to grow!
 
-Throughout my PhD, I have tackled challenges across the hardware-software stack: from characterizing individual devices and crossbar arrays, to creating kernel drivers for analog and mixed-signal systems, and developing software solutions like data-driven device models and deep learning libraries for evaluating and implementing emerging memory technology-based accelerators for deep neural networks of all kinds.
-
-I graduate in Spring 2025 and am actively seeking **Research Scientist** and **Research Engineer** opportunities in deep learning and AI. I want to be part of a company with a challenging work environment where I can contribute to advancing AI technologies and grow my expertise.
+The best way to reach me is via e-mail.
