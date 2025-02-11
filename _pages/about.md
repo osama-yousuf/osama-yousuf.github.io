@@ -11,7 +11,7 @@ profile:
   more_info: "Graduate Research Assistant osamayousuf@gwu.edu"
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page\
 ---
 
 I am a PhD candidate in Computer Engineering at The George Washington University, specializing in Machine Learning & Intelligent Systems. My research focuses on deep learning in alternative computing paradigms (neuromorphic & in-memory computing), aiming to make deep neural network training and inference more resource-efficient through algorithmic and architectural innovations.
