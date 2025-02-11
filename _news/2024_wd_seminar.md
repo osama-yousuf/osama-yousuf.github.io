@@ -5,7 +5,7 @@ inline: true
 related_posts: false
 ---
 
-delivered a seminar title "Accelerating LLMs with Magnetic Crosspoint Arrays" at Western Digital, San Jose, CA, concluding my research internship with the Advanced Memory Technology group
+delivered a seminar titled "Accelerating LLMs with Magnetic Crosspoint Arrays" at Western Digital, San Jose, CA, concluding my research internship with the Advanced Memory Technology group
 
 
 <!-- ---
